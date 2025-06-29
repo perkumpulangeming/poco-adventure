@@ -41,7 +41,6 @@ namespace Game.Characters
             if (!enabled)
             {
                 Running = false;
-
                 return;
             }
 
@@ -73,6 +72,7 @@ namespace Game.Characters
                 enabled = false;
                 Rb.simulated = false;
                 Rb.bodyType = RigidbodyType2D.Static;
+
                 var colliders = GetComponents<BoxCollider2D>();
                 foreach (var collider in colliders)
                 {
