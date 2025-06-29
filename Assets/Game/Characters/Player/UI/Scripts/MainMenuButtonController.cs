@@ -12,6 +12,9 @@ namespace Game.Characters.Player.UI
 
         public void OnClick()
         {
+            // Reset session-specific stats when returning to main menu
+            GameStats.ResetSessionStats();
+
             SceneManager.LoadScene(Global.Levels.MainMenu);
         }
     }

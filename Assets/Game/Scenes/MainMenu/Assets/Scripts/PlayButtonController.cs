@@ -8,6 +8,9 @@ namespace Game.Scenes.MainMenu
     {
         public void OnClick()
         {
+            // Reset session-specific stats (but keep persistent gems)
+            GameStats.ResetSessionStats();
+
             SceneManager.LoadScene(Global.Levels.Main);
 
             InputSystem.EnableDevice(Keyboard.current);
