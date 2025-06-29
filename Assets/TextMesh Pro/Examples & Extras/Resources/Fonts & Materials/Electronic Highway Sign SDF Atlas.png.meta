@@ -1,0 +1,1305 @@
+fileFormatVersion: 2
+guid: 1f62fca251e638a4890919f70ffa15f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2486380481203621238
+    second: Electronic Highway Sign SDF Atlas_0
+  - first:
+      213: -2054615277798359904
+    second: Electronic Highway Sign SDF Atlas_1
+  - first:
+      213: -8518098694571591794
+    second: Electronic Highway Sign SDF Atlas_2
+  - first:
+      213: -462939216350187206
+    second: Electronic Highway Sign SDF Atlas_3
+  - first:
+      213: -7738950695889212581
+    second: Electronic Highway Sign SDF Atlas_4
+  - first:
+      213: 5396894502465197436
+    second: Electronic Highway Sign SDF Atlas_5
+  - first:
+      213: -6848907855326240590
+    second: Electronic Highway Sign SDF Atlas_6
+  - first:
+      213: -4822555481987709680
+    second: Electronic Highway Sign SDF Atlas_7
+  - first:
+      213: 7181940336809658818
+    second: Electronic Highway Sign SDF Atlas_8
+  - first:
+      213: 4357136937700439265
+    second: Electronic Highway Sign SDF Atlas_9
+  - first:
+      213: 7617374299223423280
+    second: Electronic Highway Sign SDF Atlas_10
+  - first:
+      213: -4062409814649230489
+    second: Electronic Highway Sign SDF Atlas_11
+  - first:
+      213: 9048829294608242569
+    second: Electronic Highway Sign SDF Atlas_12
+  - first:
+      213: 5869495681751339804
+    second: Electronic Highway Sign SDF Atlas_13
+  - first:
+      213: -875070901853931216
+    second: Electronic Highway Sign SDF Atlas_14
+  - first:
+      213: 7604004473048752100
+    second: Electronic Highway Sign SDF Atlas_15
+  - first:
+      213: -5535606136453300666
+    second: Electronic Highway Sign SDF Atlas_16
+  - first:
+      213: -8364348044745649857
+    second: Electronic Highway Sign SDF Atlas_17
+  - first:
+      213: -4239591508831763835
+    second: Electronic Highway Sign SDF Atlas_18
+  - first:
+      213: 5351775354606721096
+    second: Electronic Highway Sign SDF Atlas_19
+  - first:
+      213: 3291396671029906132
+    second: Electronic Highway Sign SDF Atlas_20
+  - first:
+      213: 8965400684510259792
+    second: Electronic Highway Sign SDF Atlas_21
+  - first:
+      213: -9105672904545717067
+    second: Electronic Highway Sign SDF Atlas_22
+  - first:
+      213: -727504652838059294
+    second: Electronic Highway Sign SDF Atlas_23
+  - first:
+      213: 8621555038894340369
+    second: Electronic Highway Sign SDF Atlas_24
+  - first:
+      213: 7193965937482546299
+    second: Electronic Highway Sign SDF Atlas_25
+  - first:
+      213: -5738711905901258608
+    second: Electronic Highway Sign SDF Atlas_26
+  - first:
+      213: 6946793648860559239
+    second: Electronic Highway Sign SDF Atlas_27
+  - first:
+      213: 1859197756392081689
+    second: Electronic Highway Sign SDF Atlas_28
+  - first:
+      213: 9166873513678044763
+    second: Electronic Highway Sign SDF Atlas_29
+  - first:
+      213: -126626895918124051
+    second: Electronic Highway Sign SDF Atlas_30
+  - first:
+      213: -4237365251897421182
+    second: Electronic Highway Sign SDF Atlas_31
+  - first:
+      213: -6678822481281162023
+    second: Electronic Highway Sign SDF Atlas_32
+  - first:
+      213: -5894657039800133019
+    second: Electronic Highway Sign SDF Atlas_33
+  - first:
+      213: 7000344310047109058
+    second: Electronic Highway Sign SDF Atlas_34
+  - first:
+      213: -7389923963666354059
+    second: Electronic Highway Sign SDF Atlas_35
+  - first:
+      213: 6997473083518538181
+    second: Electronic Highway Sign SDF Atlas_36
+  - first:
+      213: 6955470863889081691
+    second: Electronic Highway Sign SDF Atlas_37
+  - first:
+      213: 8407602663875398312
+    second: Electronic Highway Sign SDF Atlas_38
+  - first:
+      213: -2918448124590993403
+    second: Electronic Highway Sign SDF Atlas_39
+  - first:
+      213: 8948167162796516036
+    second: Electronic Highway Sign SDF Atlas_40
+  - first:
+      213: 8460183953177408345
+    second: Electronic Highway Sign SDF Atlas_41
+  - first:
+      213: -1472988644566286528
+    second: Electronic Highway Sign SDF Atlas_42
+  - first:
+      213: 6913888833306758399
+    second: Electronic Highway Sign SDF Atlas_43
+  - first:
+      213: 116222601386136547
+    second: Electronic Highway Sign SDF Atlas_44
+  - first:
+      213: 8023563919312838539
+    second: Electronic Highway Sign SDF Atlas_45
+  - first:
+      213: -117589112632690297
+    second: Electronic Highway Sign SDF Atlas_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 99
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d4b9ecfd5618220800000000000000
+      internalID: 2486380481203621238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acfcb86a4a8c73e0800000000000000
+      internalID: -2054615277798359904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 910
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87775c3e52a9c980800000000000000
+      internalID: -8518098694571591794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 910
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3179d84c3f4399f0800000000000000
+      internalID: -462939216350187206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 686
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5be2454859b99490800000000000000
+      internalID: -7738950695889212581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 780
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7552bdb4fe95ea40800000000000000
+      internalID: 5396894502465197436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 650
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0a5e7b79ac3f0a0800000000000000
+      internalID: -6848907855326240590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 780
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01582821757d21db0800000000000000
+      internalID: -4822555481987709680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 650
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9c69d4fa06ba360800000000000000
+      internalID: 7181940336809658818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e43e51b5f8a77c30800000000000000
+      internalID: 4357136937700439265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039f66a019956b960800000000000000
+      internalID: 7617374299223423280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 520
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba5c11ccb6f97c0800000000000000
+      internalID: -4062409814649230489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 520
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987d54afc46e39d70800000000000000
+      internalID: 9048829294608242569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c135a718933a47150800000000000000
+      internalID: 5869495681751339804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 390
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03937bda6af1bd3f0800000000000000
+      internalID: -875070901853931216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef5d8ec7c9d68960800000000000000
+      internalID: 7604004473048752100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 390
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e7a3c3c839d23b0800000000000000
+      internalID: -5535606136453300666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31d33ff4cddbeb80800000000000000
+      internalID: -8364348044745649857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582025b2cf1f925c0800000000000000
+      internalID: -4239591508831763835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84816018453554a40800000000000000
+      internalID: 5351775354606721096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da04af65d36dad20800000000000000
+      internalID: 3291396671029906132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a274dfb608b6c70800000000000000
+      internalID: 8965400684510259792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 260
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b437abbcb622a180800000000000000
+      internalID: -9105672904545717067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2c42b6f5267e5f0800000000000000
+      internalID: -727504652838059294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119b6c001aae5a770800000000000000
+      internalID: 8621555038894340369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c38e5a7e916d360800000000000000
+      internalID: 7193965937482546299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09853743deffb50b0800000000000000
+      internalID: -5738711905901258608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787f5489408f76060800000000000000
+      internalID: 6946793648860559239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91904fc42823dc910800000000000000
+      internalID: 1859197756392081689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 130
+        width: 68
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e77bb74e6473f70800000000000000
+      internalID: 9166873513678044763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de33ac152812e3ef0800000000000000
+      internalID: -126626895918124051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282121101cad135c0800000000000000
+      internalID: -4237365251897421182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 130
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4e755d65e0053a0800000000000000
+      internalID: -6678822481281162023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 182
+        width: 68
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a15fd47a8f13ea0800000000000000
+      internalID: -5894657039800133019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 130
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfe8c18f08362160800000000000000
+      internalID: 7000344310047109058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 68
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570358cfe47b17990800000000000000
+      internalID: -7389923963666354059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 99
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1da7cf1b40c1160800000000000000
+      internalID: 6997473083518538181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5520b726ebc68060800000000000000
+      internalID: 6955470863889081691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aacbe0d31ecda470800000000000000
+      internalID: 8407602663875398312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500595ea4e69f77d0800000000000000
+      internalID: -2918448124590993403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c22d4900a64e2c70800000000000000
+      internalID: 8948167162796516036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953799f3b7c986570800000000000000
+      internalID: 8460183953177408345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f317ac1a4ee8be0800000000000000
+      internalID: -1472988644566286528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc0ac5334113ff50800000000000000
+      internalID: 6913888833306758399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e31e7617d7ec9100800000000000000
+      internalID: 116222601386136547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 99
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f584bbfdc695f60800000000000000
+      internalID: 8023563919312838539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electronic Highway Sign SDF Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 37
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7893318335d3e5ef0800000000000000
+      internalID: -117589112632690297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
