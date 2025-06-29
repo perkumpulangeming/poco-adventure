@@ -12,18 +12,14 @@ namespace Game.Characters.Player.UI
     {
         [SerializeField] private TextMeshProUGUI gemsCountText;
         [SerializeField] private TextMeshProUGUI killsCountText;
-        [SerializeField] private TextMeshProUGUI heartsCountText;
 
         [SerializeField] private Image[] winScreenImages;
 
         [SerializeField] private Canvas hud;
         [SerializeField] private Canvas escape;
 
-        [SerializeField] private TextMeshProUGUI winText;
         [SerializeField] private TextMeshProUGUI escapeGemsCountText;
         [SerializeField] private TextMeshProUGUI escapeKillsCountText;
-
-        private const string PlayerDeathText = "YOU ARE DEAD! GO HOME, NERD!";
 
         private PlayerController _playerController;
         private Camera _playerCamera;
@@ -32,7 +28,6 @@ namespace Game.Characters.Player.UI
         {
             Cursor.visible = false;
 
-            // Ensure GameManager is initialized
             _ = GameManager.Instance;
 
             _playerController = FindObjectOfType<PlayerController>();
@@ -40,7 +35,6 @@ namespace Game.Characters.Player.UI
 
             EntityController.OnEntityDeath += OnKill;
             FindObjectOfType<HouseController>().OnWin += OnWin;
-            _playerController.OnHealthChange += OnHealthChange;
             _playerController.OnDeath += OnDeath;
             _playerController.OnEscapePressed += OnEscapePressed;
 
@@ -49,28 +43,14 @@ namespace Game.Characters.Player.UI
 
         private void Start()
         {
-            heartsCountText.text = _playerController.Health.GetHealthAmount().ToString();
-
-            // Initialize gems count from persistent storage
             gemsCountText.text = GameStats.CollectedGems.ToString();
-
-
-            // Load and display persisted gems
-            gemsCountText.text = GameStats.CollectedGems.ToString();
-
             InputSystem.EnableDevice(Keyboard.current);
         }
 
         private float OnKill()
         {
             killsCountText.text = (int.Parse(killsCountText.text) + 1).ToString();
-
             return float.NaN;
-        }
-
-        private void OnHealthChange(uint healthAmount)
-        {
-            heartsCountText.text = healthAmount.ToString();
         }
 
         private float OnDeath()
@@ -82,9 +62,6 @@ namespace Game.Characters.Player.UI
                 hud.gameObject.SetActive(false);
                 escape.gameObject.SetActive(true);
                 _playerCamera.gameObject.SetActive(false);
-
-                winText.gameObject.SetActive(true);
-                winText.text = PlayerDeathText;
             }, deathAnimationLength);
 
             return float.NaN;
@@ -103,7 +80,6 @@ namespace Game.Characters.Player.UI
 
         private void OnItemCollect()
         {
-            // Update UI to reflect current gem count from GameStats
             gemsCountText.text = GameStats.CollectedGems.ToString();
         }
 
@@ -123,8 +99,6 @@ namespace Game.Characters.Player.UI
 
             escapeGemsCountText.text = gemsCountText.text;
             escapeKillsCountText.text = killsCountText.text;
-
-            winText.gameObject.SetActive(true);
         }
     }
 }
