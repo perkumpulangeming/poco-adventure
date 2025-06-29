@@ -26,14 +26,6 @@ namespace Game.Characters.Player
         [SerializeField, Range(0.0f, float.MaxValue)]
         private float climbingForce = 2.0f;
 
-        // Shooting System
-        [SerializeField] private GameObject projectilePrefab;
-        [SerializeField] private Transform firePoint;
-        [SerializeField] private float shootCooldown = 0.3f;
-        [SerializeField] private uint projectileDamage = 1;
-
-        private float lastShootTime;
-
         private CapsuleCollider2D Capsule { get; set; }
 
         public bool IsCrouching { get; private set; }
@@ -187,81 +179,6 @@ namespace Game.Characters.Player
         public void EnableMovement(bool enable)
         {
             Rb.bodyType = enable ? RigidbodyType2D.Dynamic : RigidbodyType2D.Static;
-        }
-
-        // Shooting System Methods
-        public void Shoot(InputAction.CallbackContext context)
-        {
-            if (!context.started || Rb.bodyType == RigidbodyType2D.Static)
-                return;
-
-            // Check cooldown
-            if (Time.time - lastShootTime < shootCooldown)
-                return;
-
-            // Check if we have projectile prefab and fire point
-            if (projectilePrefab == null || firePoint == null)
-            {
-                Debug.LogWarning("Projectile prefab or fire point not assigned!");
-                return;
-            }
-
-            // Tentukan arah tembakan (sesuai arah player menghadap)
-            Vector2 shootDirection = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
-
-            // Instantiate projectile
-            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-
-            // Initialize projectile
-            if (projectile.TryGetComponent<Projectile>(out var projectileScript))
-            {
-                projectileScript.Initialize(shootDirection, projectileDamage);
-            }
-
-            lastShootTime = Time.time;
-        }
-
-        public void ShootAtMouse(InputAction.CallbackContext context)
-        {
-            Debug.Log("ShootAtMouse called! Context: " + context.phase);
-
-            if (!context.started || Rb.bodyType == RigidbodyType2D.Static)
-                return;
-
-            // Check cooldown
-            if (Time.time - lastShootTime < shootCooldown)
-            {
-                Debug.Log("Still in cooldown!");
-                return;
-            }
-
-            // Check if we have projectile prefab and fire point
-            if (projectilePrefab == null || firePoint == null)
-            {
-                Debug.LogWarning("Projectile prefab or fire point not assigned!");
-                return;
-            }
-
-            Debug.Log("Creating projectile...");
-
-            // Get mouse position in world space
-            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePosition.z = 0f;
-
-            // Calculate direction from fire point to mouse
-            Vector2 shootDirection = (mousePosition - firePoint.position).normalized;
-
-            // Instantiate projectile
-            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-
-            // Initialize projectile
-            if (projectile.TryGetComponent<Projectile>(out var projectileScript))
-            {
-                projectileScript.Initialize(shootDirection, projectileDamage);
-                Debug.Log("Projectile created and initialized!");
-            }
-
-            lastShootTime = Time.time;
         }
     }
 }
