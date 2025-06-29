@@ -54,6 +54,10 @@ namespace Game.Characters.Player.UI
             // Initialize gems count from persistent storage
             gemsCountText.text = GameStats.CollectedGems.ToString();
 
+
+            // Load and display persisted gems
+            gemsCountText.text = GameStats.CollectedGems.ToString();
+
             InputSystem.EnableDevice(Keyboard.current);
         }
 
@@ -98,6 +102,11 @@ namespace Game.Characters.Player.UI
         }
 
         private void OnItemCollect() => gemsCountText.text = GameStats.CollectedGems.ToString();
+        private void OnItemCollect()
+        {
+            // Update UI to reflect current gem count from GameStats
+            gemsCountText.text = GameStats.CollectedGems.ToString();
+        }
 
         private void OnWin()
         {
