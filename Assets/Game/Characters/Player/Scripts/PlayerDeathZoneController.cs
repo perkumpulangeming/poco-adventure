@@ -7,7 +7,7 @@ namespace Game.Characters.Player
         private void OnTriggerEnter2D(Collider2D col)
         {
             if (!col.TryGetComponent(out PlayerController player)) return;
-            player.TakeDamage(player.Health.GetHealthAmount());
+            player.Health.TakeDamage((uint)player.Health.GetHealthAmount());
         }
     }
 }
