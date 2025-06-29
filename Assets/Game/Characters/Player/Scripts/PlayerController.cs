@@ -53,8 +53,8 @@ namespace Game.Characters.Player
 
             damageable.TakeDamage(attackDamage);
 
-            if (!((EntityController)damageable).Health.IsAlive)
-            GameStats.KilledEnemies++;
+            if (((EntityController)damageable).Health.IsAlive)
+                GameStats.KilledEnemies++;
 
             Rb.linearVelocity = new Vector2(Rb.linearVelocity.x, jumpForce);
         }
@@ -74,7 +74,7 @@ namespace Game.Characters.Player
         public override void TakeDamage(uint damageAmount)
         {
             base.TakeDamage(damageAmount);
-            OnHealthChange?.Invoke((uint)Health.GetHealthAmount());
+            OnHealthChange?.Invoke(Health.GetHealthAmount());
 
             if (Health.IsAlive)
                 OnTakingDamage?.Invoke();
@@ -172,7 +172,8 @@ namespace Game.Characters.Player
 
         public void HealUp(uint healAmount)
         {
-            Health.HealUp((int)healAmount); // Konversi ke int kalau Health.HealUp butuh int
+            Health.HealUp(healAmount);
+            OnHealthChange?.Invoke(Health.GetHealthAmount());
         }
 
         public void EnableMovement(bool enable)
