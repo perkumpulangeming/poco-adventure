@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 3225c7ee486745d438a8866a60f97674
+guid: 51c8ba25f7695c04dba87b71ddcca80f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3787085044280237322
-    second: ex_0
+      213: 7213145703633537021
+    second: etalase (1)_0
+  - first:
+      213: 6099056710536460503
+    second: etalase (1)_1
+  - first:
+      213: -2977023080984848478
+    second: etalase (1)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +115,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ex_0
+      name: etalase (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 711
-        height: 184
+        width: 2048
+        height: 1364
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0d948e68cd6e8430800000000000000
-      internalID: 3787085044280237322
+      spriteID: df74632fccd3a1460800000000000000
+      internalID: 7213145703633537021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etalase (1)_1
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 1359
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8fc7893c334a450800000000000000
+      internalID: 6099056710536460503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etalase (1)_2
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a752c1e74d7fa6d0800000000000000
+      internalID: -2977023080984848478
       vertices: []
       indices: 
       edges: []
@@ -161,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ex_0: 3787085044280237322
+      etalase (1)_0: 7213145703633537021
+      etalase (1)_1: 6099056710536460503
+      etalase (1)_2: -2977023080984848478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
