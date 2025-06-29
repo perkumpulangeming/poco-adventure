@@ -101,7 +101,6 @@ namespace Game.Characters.Player.UI
             _playerController.EnableMovement(hud.gameObject.activeSelf);
         }
 
-        private void OnItemCollect() => gemsCountText.text = GameStats.CollectedGems.ToString();
         private void OnItemCollect()
         {
             // Update UI to reflect current gem count from GameStats

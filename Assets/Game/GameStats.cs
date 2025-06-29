@@ -56,6 +56,17 @@ namespace Game
         }
 
         /// <summary>
+        /// Reset session-specific stats (kills, win status)
+        /// Keep gems persistent across sessions
+        /// </summary>
+        public static void ResetSessionStats()
+        {
+            KilledEnemies = 0;
+            IsWin = false;
+            SaveData();
+        }
+
+        /// <summary>
         /// Reset all stats including gems (for new game)
         /// </summary>
         public static void ResetAllStats()
