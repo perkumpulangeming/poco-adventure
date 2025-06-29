@@ -13,7 +13,8 @@ namespace Game.Characters
         public static event DeathNotifier OnEntityDeath;
         public event DeathNotifier OnDeath;
 
-        [field: Range(0.0f, float.MaxValue)] public float moveSpeed = 5.0f;
+        [SerializeField, Range(0.0f, float.MaxValue)]
+        public float moveSpeed = 5.0f;
 
         [SerializeField] protected uint attackDamage = 1;
 

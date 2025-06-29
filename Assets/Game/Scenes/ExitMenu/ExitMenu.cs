@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Game;
 
 public class ExitMenu : MonoBehaviour
 {
     // Fungsi dipanggil saat tombol "No" diklik
     public void OnNoButtonClicked()
     {
+        // Reset session stats when returning to main menu
+        GameStats.ResetSessionStats();
         // Ganti ke scene "MainMenu"
         SceneManager.LoadScene("MainMenu");
     }

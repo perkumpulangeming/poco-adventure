@@ -32,6 +32,9 @@ namespace Game.Characters.Player.UI
         {
             Cursor.visible = false;
 
+            // Ensure GameManager is initialized
+            _ = GameManager.Instance;
+
             _playerController = FindObjectOfType<PlayerController>();
             _playerCamera = _playerController.GetComponentInChildren<Camera>();
 
@@ -47,6 +50,14 @@ namespace Game.Characters.Player.UI
         private void Start()
         {
             heartsCountText.text = _playerController.Health.GetHealthAmount().ToString();
+
+            // Initialize gems count from persistent storage
+            gemsCountText.text = GameStats.CollectedGems.ToString();
+
+
+            // Load and display persisted gems
+            gemsCountText.text = GameStats.CollectedGems.ToString();
+
             InputSystem.EnableDevice(Keyboard.current);
         }
 
@@ -90,7 +101,12 @@ namespace Game.Characters.Player.UI
             _playerController.EnableMovement(hud.gameObject.activeSelf);
         }
 
-        private void OnItemCollect() => gemsCountText.text = (int.Parse(gemsCountText.text) + 1).ToString();
+        private void OnItemCollect() => gemsCountText.text = GameStats.CollectedGems.ToString();
+        private void OnItemCollect()
+        {
+            // Update UI to reflect current gem count from GameStats
+            gemsCountText.text = GameStats.CollectedGems.ToString();
+        }
 
         private void OnWin()
         {

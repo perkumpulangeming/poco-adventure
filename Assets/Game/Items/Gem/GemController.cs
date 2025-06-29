@@ -13,8 +13,7 @@ namespace Game.Items.Gem
 
         protected override void OnPickUp()
         {
-            GameStats.CollectedGems += rewardAmount;
-
+            GameStats.AddGems(rewardAmount);
             OnItemCollect?.Invoke();
         }
     }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Game;
 
 public class ChangeScene : MonoBehaviour
 {
@@ -10,11 +11,15 @@ public class ChangeScene : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        // Reset session stats when going to main menu
+        GameStats.ResetSessionStats();
         SceneManager.LoadScene("MainMenu");
     }
 
     public void GoToLevel1()
     {
+        // Reset session stats when starting level
+        GameStats.ResetSessionStats();
         SceneManager.LoadScene("Level_01");
     }
 
