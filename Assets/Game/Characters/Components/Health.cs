@@ -1,35 +1,39 @@
+using System;
 using UnityEngine;
 
 namespace Game.Characters.Components
 {
-    public class Health : MonoBehaviour
+    public sealed class Health : MonoBehaviour
     {
-        public int maxHealth = 3;
-        public int currentHealth = 3;
+        [SerializeField] private uint healthAmount = 1;
 
-        public bool IsAlive => currentHealth > 0;
+        public bool IsAlive { get; private set; } = true;
+        private uint _totalHealth;
 
-        public void TakeDamage(uint damage)
+        private void Awake()
         {
-            currentHealth -= (int)damage;
-            currentHealth = Mathf.Max(currentHealth, 0);
+            _totalHealth = healthAmount;
         }
 
-        public void Heal(uint amount)
+        public void TakeDamage(uint damageAmount)
         {
-            currentHealth += (int)amount;
-            currentHealth = Mathf.Min(currentHealth, maxHealth);
+            healthAmount = Math.Clamp(healthAmount - damageAmount, uint.MinValue, _totalHealth);
+
+            if (healthAmount == 0)
+                IsAlive = false;
         }
 
-        public void HealUp(int amount)
+        public void HealUp(uint healAmount)
         {
-            currentHealth += amount;
-            currentHealth = Mathf.Min(currentHealth, maxHealth);
+            if (!IsAlive)
+                return;
+
+            healthAmount = Math.Clamp(healthAmount + healAmount, uint.MinValue, _totalHealth);
         }
 
-        public int GetHealthAmount()
+        public uint GetHealthAmount()
         {
-            return currentHealth;
+            return healthAmount;
         }
     }
 }
