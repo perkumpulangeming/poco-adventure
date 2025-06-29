@@ -16,6 +16,13 @@ public class Dialogue : MonoBehaviour
     public List<string> dialogues;
     //Writing speed
     public float writingSpeed;
+    
+    [Header("Window Sizing")]
+    [SerializeField] private float minWindowHeight = 100f;
+    [SerializeField] private float maxWindowHeight = 300f;
+    [SerializeField] private float windowPadding = 20f;
+    [SerializeField] private float resizeAnimationSpeed = 2f;
+    
     //Index on dialogue
     private int index;
     //Character index
@@ -24,9 +31,21 @@ public class Dialogue : MonoBehaviour
     private bool started;
     //Wait for next boolean
     private bool waitForNext;
+    
+    // Window resizing components
+    private RectTransform windowRectTransform;
+    private Vector2 originalWindowSize;
+    private Coroutine resizeCoroutine;
 
     private void Awake()
     {
+        // Get window RectTransform component
+        windowRectTransform = window.GetComponent<RectTransform>();
+        if (windowRectTransform != null)
+        {
+            originalWindowSize = windowRectTransform.sizeDelta;
+        }
+        
         ToggleIndicator(false);
         ToggleWindow(false);
     }
@@ -35,6 +54,7 @@ public class Dialogue : MonoBehaviour
     {
         window.SetActive(show);
     }
+    
     public void ToggleIndicator(bool show)
     {
         indicator.SetActive(show);
@@ -64,8 +84,75 @@ public class Dialogue : MonoBehaviour
         charIndex = 0;
         //clear the dialogue component text
         dialogueText.text = string.Empty;
+        
+        // Calculate and animate to new window size based on full dialogue text
+        if (windowRectTransform != null)
+        {
+            ResizeWindowForText(dialogues[index]);
+        }
+        
         //Start writing
         StartCoroutine(Writing());
+    }
+
+    private void ResizeWindowForText(string fullText)
+    {
+        if (windowRectTransform == null) return;
+        
+        // Simple calculation based on text length
+        int textLength = fullText.Length;
+        
+        // Base height calculation - more characters = taller window
+        float calculatedHeight = minWindowHeight;
+        
+        if (textLength > 50)
+            calculatedHeight = minWindowHeight + 50f;
+        if (textLength > 100)
+            calculatedHeight = minWindowHeight + 100f;
+        if (textLength > 150)
+            calculatedHeight = minWindowHeight + 150f;
+        
+        // Clamp to max height
+        calculatedHeight = Mathf.Clamp(calculatedHeight, minWindowHeight, maxWindowHeight);
+        
+        // Debug info 
+        Debug.Log($"Dialog Text Length: {textLength} characters");
+        Debug.Log($"Window Height: {calculatedHeight}px (was {windowRectTransform.sizeDelta.y}px)");
+        
+        // Set new size immediately for testing
+        Vector2 newSize = new Vector2(originalWindowSize.x, calculatedHeight);
+        windowRectTransform.sizeDelta = newSize;
+        
+        // Optional: Add smooth animation
+        if (resizeCoroutine != null)
+        {
+            StopCoroutine(resizeCoroutine);
+        }
+        resizeCoroutine = StartCoroutine(AnimateWindowResize(newSize));
+    }
+    
+    private IEnumerator AnimateWindowResize(Vector2 targetSize)
+    {
+        Vector2 startSize = windowRectTransform.sizeDelta;
+        float elapsedTime = 0f;
+        float animationDuration = 1f / resizeAnimationSpeed;
+        
+        while (elapsedTime < animationDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            float progress = elapsedTime / animationDuration;
+            
+            // Smooth animation curve
+            float smoothProgress = Mathf.SmoothStep(0f, 1f, progress);
+            
+            windowRectTransform.sizeDelta = Vector2.Lerp(startSize, targetSize, smoothProgress);
+            
+            yield return null;
+        }
+        
+        // Ensure final size is exactly the target
+        windowRectTransform.sizeDelta = targetSize;
+        resizeCoroutine = null;
     }
 
     //End Dialogue
@@ -77,9 +164,17 @@ public class Dialogue : MonoBehaviour
         waitForNext = false;
         //Stop all Ienumerators
         StopAllCoroutines();
+        
+        // Reset window size to original
+        if (windowRectTransform != null && resizeCoroutine == null)
+        {
+            resizeCoroutine = StartCoroutine(AnimateWindowResize(originalWindowSize));
+        }
+        
         //Hide the window
         ToggleWindow(false);        
     }
+    
     //Writing logic
     IEnumerator Writing()
     {
@@ -110,7 +205,7 @@ public class Dialogue : MonoBehaviour
         if (!started)
             return;
 
-        if(waitForNext && Input.GetKeyDown(KeyCode.E))
+        if(waitForNext && Input.GetKeyDown(KeyCode.F))
         {
             waitForNext = false;
             index++;
@@ -129,5 +224,4 @@ public class Dialogue : MonoBehaviour
             }            
         }
     }
-
 }
