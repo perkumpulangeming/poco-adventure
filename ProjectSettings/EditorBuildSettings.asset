@@ -14,5 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/MainMenu/Credits.unity
     guid: f8224237fb40fea48ac2cd6f9c965dd1
+  - enabled: 1
+    path: Assets/Game/Scenes/LevelEnd/LevelEnd.unity
+    guid: 0c39da8ac3d0ced40ab6b11552ae430b
+  - enabled: 1
+    path: Assets/Game/Scenes/NextLevel/NextLevel.unity
+    guid: 822990d7091c1c0439f7fca7c0093bf5
+  - enabled: 1
+    path: Assets/Game/Scenes/Level_02/Level_02.unity
+    guid: cb531a1758aa3c04cbe50a94d2ab1806
+  - enabled: 1
+    path: Assets/Game/Scenes/Level_03/Level_03.unity
+    guid: 7fbe23c8769a4554ba787fbe5afbf123
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
