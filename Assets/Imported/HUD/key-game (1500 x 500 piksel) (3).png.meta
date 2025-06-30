@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      key-game (1500 x 500 piksel) (3)_0: 6226471454036379121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
