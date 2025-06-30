@@ -115,7 +115,7 @@ namespace Game.Characters.Player.UI
                 return;
             }
 
-            // Get max health from player
+            // Get max health from player (refresh every time)
             maxHealth = _playerController.Health.GetHealthAmount();
             fullHeartColor = referenceHeartImage.color;
 
@@ -133,6 +133,15 @@ namespace Game.Characters.Player.UI
                 containerRect.sizeDelta = new Vector2(maxHealth * heartSpacing, refRect.sizeDelta.y);
                 
                 heartContainer = containerObj.transform;
+            }
+            else
+            {
+                // Update container size if max health changed
+                RectTransform containerRect = heartContainer.GetComponent<RectTransform>();
+                if (containerRect != null)
+                {
+                    containerRect.sizeDelta = new Vector2(maxHealth * heartSpacing, containerRect.sizeDelta.y);
+                }
             }
 
             // Hide original reference heart
@@ -358,6 +367,30 @@ namespace Game.Characters.Player.UI
         {
             useHeartVisual = enable;
             SetupHealthDisplay();
+        }
+
+        // Public method to refresh heart system when max health changes
+        public void RefreshHeartSystem()
+        {
+            if (useHeartVisual && _playerController != null)
+            {
+                uint newMaxHealth = _playerController.Health.GetHealthAmount();
+                if (newMaxHealth != maxHealth)
+                {
+                    Debug.Log($"[PlayerUIController] Refreshing heart system - Old max: {maxHealth}, New max: {newMaxHealth}");
+                    SetupHeartVisualSystem();
+                }
+            }
+        }
+
+        // Public method to force refresh heart system (for external calls)
+        public void ForceRefreshHeartSystem()
+        {
+            if (useHeartVisual && _playerController != null)
+            {
+                Debug.Log("[PlayerUIController] Force refreshing heart system");
+                SetupHeartVisualSystem();
+            }
         }
 
         private void OnDestroy()
