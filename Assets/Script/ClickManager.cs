@@ -44,13 +44,14 @@ public class ClickManager : MonoBehaviour
         CheckKeyInput(KeyCode.S);
         CheckKeyInput(KeyCode.D);
         CheckKeyInput(KeyCode.Space);
+        CheckKeyInput(KeyCode.E);
     }
     
     private void SetupKeyImages()
     {
         // Nama-nama GameObject yang akan dicari
-        string[] imageNames = { "WbuttonImg", "AbuttonImg", "SbuttonImg", "DbuttonImg", "SpaceButtonImg" };
-        KeyCode[] keyCodes = { KeyCode.W, KeyCode.A, KeyCode.S, KeyCode.D, KeyCode.Space };
+        string[] imageNames = { "WbuttonImg", "AbuttonImg", "SbuttonImg", "DbuttonImg", "SpaceButtonImg", "EbuttonImg" };
+        KeyCode[] keyCodes = { KeyCode.W, KeyCode.A, KeyCode.S, KeyCode.D, KeyCode.Space, KeyCode.E };
         
         for (int i = 0; i < imageNames.Length; i++)
         {
