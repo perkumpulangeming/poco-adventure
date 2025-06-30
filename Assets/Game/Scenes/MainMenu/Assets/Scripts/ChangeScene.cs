@@ -23,6 +23,16 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("Level_01");
     }
 
+    public void GoToShop()
+    {
+        SceneManager.LoadScene("ShopMenu");
+    }
+
+    public void GoToHelp()
+    {
+        SceneManager.LoadScene("Help");
+    }
+
     public void ExitGame()
     {
         Application.Quit();
