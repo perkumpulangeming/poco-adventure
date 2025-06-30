@@ -294,6 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a227bb1a42df3747a4ed661791d52f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetStatsOnSceneChange: 1
+  enableDebugLogging: 1
 --- !u!4 &466893026
 Transform:
   m_ObjectHideFlags: 0
@@ -819,6 +821,7 @@ GameObject:
   - component: {fileID: 1027792502}
   - component: {fileID: 1027792501}
   - component: {fileID: 1027792504}
+  - component: {fileID: 1027792505}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -890,9 +893,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1027792504}
-        m_TargetAssemblyTypeName: Game.Scenes.MainMenu.ExitButtonController, MainMenu
-        m_MethodName: OnClick
+      - m_Target: {fileID: 1027792505}
+        m_TargetAssemblyTypeName: ChangeScene, MainMenu
+        m_MethodName: GoToExitMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -952,6 +955,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df28b6ea714fb8d488ec304f15d8aa60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1027792505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027792499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a227bb1a42df3747a4ed661791d52f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetStatsOnSceneChange: 1
+  enableDebugLogging: 1
 --- !u!1 &1093772705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,6 +1709,7 @@ GameObject:
   - component: {fileID: 1632449655}
   - component: {fileID: 1632449654}
   - component: {fileID: 1632449653}
+  - component: {fileID: 1632449657}
   m_Layer: 5
   m_Name: ShopButton
   m_TagString: Untagged
@@ -1775,9 +1793,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1632449653}
-        m_TargetAssemblyTypeName: Game.Scenes.MainMenu.PlayButtonController, MainMenu
-        m_MethodName: OnClick
+      - m_Target: {fileID: 1632449657}
+        m_TargetAssemblyTypeName: ChangeScene, MainMenu
+        m_MethodName: GoToShopMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1825,6 +1843,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632449651}
   m_CullTransparentMesh: 1
+--- !u!114 &1632449657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632449651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a227bb1a42df3747a4ed661791d52f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetStatsOnSceneChange: 1
+  enableDebugLogging: 1
 --- !u!1 &1751431670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,6 +1870,7 @@ GameObject:
   - component: {fileID: 1751431673}
   - component: {fileID: 1751431672}
   - component: {fileID: 1751431675}
+  - component: {fileID: 1751431676}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -1909,9 +1942,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1751431675}
-        m_TargetAssemblyTypeName: Game.Scenes.MainMenu.PlayButtonController, MainMenu
-        m_MethodName: OnClick
+      - m_Target: {fileID: 1751431676}
+        m_TargetAssemblyTypeName: ChangeScene, MainMenu
+        m_MethodName: GoToLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1971,6 +2004,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbd8eb648be359c4ab71548ff9fdf9a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1751431676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751431670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a227bb1a42df3747a4ed661791d52f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetStatsOnSceneChange: 1
+  enableDebugLogging: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
